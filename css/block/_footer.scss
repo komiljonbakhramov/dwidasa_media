@@ -1,0 +1,56 @@
+.footer {
+    margin-bottom: 48px;
+
+    &_container {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    
+    &_header {
+        color: #263238;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    
+    &_text {
+        width: 250px;
+        color: #263238;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 149.187%;
+    }
+    &_img{
+        margin-bottom: 10px;
+    }
+    &_right {
+        margin-left: 47px;
+    }
+    
+    &_header-text {
+        color: #263238;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    
+    &_text-right {
+        width: 269px;
+        color: #263238;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 149.187%;
+    }
+}
+
