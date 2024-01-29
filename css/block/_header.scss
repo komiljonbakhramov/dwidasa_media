@@ -29,4 +29,16 @@
         font-weight: 400;
         line-height: normal;
     }
+
+    &_img-icon{
+       width: 100px;
+       display: flex;
+       justify-content: space-between;
+
+    }
+
+    .fa-solid {
+        display: none;
+    }
+   
 }

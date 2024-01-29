@@ -2,11 +2,275 @@
 
 
     .header {
-        &_container {
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
+        &_list {
+            display: none;
+        }
+
+        &_img-icon {
+            display: none;
+        }
+
+        .fa-solid {
+            display: block;
+            font-size: 20px;
+        }
+
+    }
+
+    .hero {
+        &_header {
+            font-size: 30px;
+        }
+
+        &_container {}
+
+        &_left {
+            width: auto;
+        }
+
+        &_header {
+            width: 300px;
+        }
+
+        &_span {}
+
+        &_text {
+            width: 300px;
+        }
+
+        &_img {
+            width: 200px;
+            height: 300px;
         }
     }
 
-  }
+    .dwidasa {
+
+        &_right {
+            max-width: 500px;
+
+        }
+
+        &_img {
+            width: 202px;
+            height: 350px;
+        }
+
+        &_header {
+            font-size: 20px;
+            max-width: 290px;
+
+        }
+
+        &_span {
+            font-size: 20px;
+        }
+
+        &_text {
+            font-size: 20px;
+            max-width: 300px;
+
+
+        }
+
+        &_bottom {
+            font-size: 20px;
+            width: 300px;
+        }
+    }
+
+    .service {
+
+
+        &_list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &_item {
+            width: 250px;
+        }
+
+        &_header-text {
+            max-width: 200px;
+        }
+
+        &_text {
+            max-width: 226px;
+            font-size: 15px;
+        }
+    }
+
+    .footer {
+
+        &_right {
+            margin-left: 0px;
+        }
+
+        &_text-right {
+            max-width: 234px;
+        }
+    }
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .header {
+        &_list {
+            display: none;
+        }
+
+        &_img-icon {
+            display: none;
+        }
+
+        .fa-solid {
+            display: block;
+            font-size: 20px;
+        }
+
+    }
+
+    .hero {
+        &_header {
+            font-size: 18px;
+            width: auto;
+        }
+
+        &_span {
+            font-size: 27px;
+        }
+
+        &_text {
+            font-size: 13px;
+        }
+
+        &_container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &_left {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_right {
+            text-align: center;
+        }
+
+        &_header {
+            width: 300px;
+        }
+
+        &_span {}
+
+        &_text {
+            width: 300px;
+        }
+
+        &_img {
+            width: 340px;
+
+        }
+    }
+
+    .dwidasa {
+
+        &_container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &_left {
+            text-align: center;
+        }
+
+        &_right {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        &_img {
+            width: 340px;
+            height: 350px;
+        }
+
+        &_header {
+            font-size: 20px;
+            max-width: 290px;
+
+        }
+
+        &_span {
+            font-size: 20px;
+        }
+
+        &_text {
+            font-size: 20px;
+            max-width: 300px;
+
+
+        }
+
+        &_bottom {
+            font-size: 20px;
+            width: 300px;
+        }
+    }
+
+    .service {
+
+        &_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_list {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &_item {
+            width: 250px;
+        }
+
+        &_header-text {
+            max-width: 200px;
+        }
+
+        &_text {
+            max-width: 226px;
+            font-size: 15px;
+        }
+    }
+
+    .footer {
+
+        &_container{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &_right {
+            margin-left: 0px;
+        }
+
+        &_text-right {
+            max-width: 234px;
+        }
+    }
+
+
+
+}
