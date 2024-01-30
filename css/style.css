@@ -879,10 +879,22 @@ p {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .footer_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_text {
+    width: 277px;
+    margin-bottom: 20px;
+  }
   .footer_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 0px;
   }
   .footer_text-right {
-    max-width: 234px;
+    max-width: 277px;
   }
 }/*# sourceMappingURL=style.css.map */

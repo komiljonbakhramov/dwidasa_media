@@ -257,17 +257,31 @@
 
     .footer {
 
-        &_container{
+        &_container {
             display: grid;
             grid-template-columns: 1fr;
         }
 
+        &_left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_text {
+            width: 277px;
+            margin-bottom: 20px;
+        }
+
         &_right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-left: 0px;
         }
 
         &_text-right {
-            max-width: 234px;
+            max-width: 277px;
         }
     }
 
